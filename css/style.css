@@ -63,6 +63,7 @@ button {
   border-radius: 8px;
   padding: 8px 32px;
   margin: 16px 0;
+  cursor: pointer;
 }
 
 .border {
@@ -85,7 +86,7 @@ button {
 .info {
   display: flex;
   flex-direction: column;
-  margin: 64px 0 128px;
+  margin: 64px 0 90px;
 }
 
 .info-items {
@@ -115,7 +116,7 @@ button {
 }
 
 .quote {
-  padding: 128px 512px 64px;
+  padding: 100px 400px 100px;
   text-align: right;
   background-color: #e5e7eb;
   font-size: 24px;
@@ -128,6 +129,10 @@ button {
   font-style: italic;
   color: #1f2937;
   text-align: left;
+}
+
+.quote p {
+  margin-top: 8px;
 }
 
 .call-to {
@@ -156,7 +161,7 @@ button {
 
 footer {
   background-color: #1f2937;
-  padding: 32px 256px;
+  padding: 24px 256px;
   color: #f9faf8;
   font-size: 18px;
   text-align: center;
