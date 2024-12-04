@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, Roboto, sans-serif;
+}
+
+header {
+  padding: 8px 256px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  margin-left: auto;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.under-header {
+  background-color: #1f2937;
+  display: flex;
+  padding: 0 256px;
+  flex-direction: column;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 128px 0;
+  gap: 128px;
+}
+
+.first-section h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.first-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.first-section img {
+  width: 600px;
+}
+
+button {
+  background: #3882f6;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px;
+  margin: 16px 0;
+}
+
+.border {
+  border: 2px solid #e5e7eb;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 256px;
+}
+
+.main h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 64px 0 128px;
+}
+
+.info-items {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  gap: 64px;
+  padding: 64px;
+}
+
+.info-items img {
+  width: 164px;
+  height: 164px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.item {
+  text-align: center;
+  max-width: 164px;
+}
+
+.item p {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.quote {
+  padding: 128px 512px 64px;
+  text-align: right;
+  background-color: #e5e7eb;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+  text-align: left;
+}
+
+.call-to {
+  margin: 64px 256px;
+  padding: 48px 128px;
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.call-to button {
+  margin-left: auto;
+}
+
+.action-blue {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.action-blue h3 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 32px 256px;
+  color: #f9faf8;
+  font-size: 18px;
+  text-align: center;
+}
